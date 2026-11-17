@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="computer-booking-sequence" name="04 Sequence">
+    <mxGraphModel dx="1800" dy="2080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="2080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Sequence: Компьютерді брондау" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=30;fontStyle=1;fontColor=#183249;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="3-жұмыстағы прецедент | Клиент және 4 объект | 4-жұмыс" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=20;fontStyle=0;fontColor=#516579;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="82" width="1700" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="client" value="Клиент" style="shape=umlActor;html=0;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Arial;fontSize=20;strokeColor=#183249;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="75" y="138" width="50" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-client" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=1.3;endArrow=open;endFill=0;endArrow=none;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="245" as="sourcePoint" />
+            <mxPoint x="100" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="page" value=":BookingPage" style="rounded=0;html=0;fontFamily=Arial;fontSize=21;fontStyle=4;fillColor=#E4EFFD;strokeColor=#648195;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="150" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="page-role" value="Брондау интерфейсі" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#516579;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="280" y="212" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-page" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=1.3;endArrow=open;endFill=0;endArrow=none;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="245" as="sourcePoint" />
+            <mxPoint x="430" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="service" value=":BookingService" style="rounded=0;html=0;fontFamily=Arial;fontSize=21;fontStyle=4;fillColor=#DDF1EB;strokeColor=#648195;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="685" y="150" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service-role" value="Брондау логикасы" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#516579;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="670" y="212" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-service" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=1.3;endArrow=open;endFill=0;endArrow=none;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="245" as="sourcePoint" />
+            <mxPoint x="820" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="computer" value=":Computer" style="rounded=0;html=0;fontFamily=Arial;fontSize=21;fontStyle=4;fillColor=#E4EFFD;strokeColor=#648195;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="150" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="computer-role" value="Компьютер деректері" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#516579;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="212" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-computer" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=1.3;endArrow=open;endFill=0;endArrow=none;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="245" as="sourcePoint" />
+            <mxPoint x="1210" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="store" value=":BookingRepository" style="rounded=0;html=0;fontFamily=Arial;fontSize=21;fontStyle=4;fillColor=#DDF1EB;strokeColor=#648195;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1465" y="150" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="store-role" value="Брондаулар қоймасы" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#516579;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="212" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-store" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=1.3;endArrow=open;endFill=0;endArrow=none;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="245" as="sourcePoint" />
+            <mxPoint x="1600" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alt-frame" value="" style="rounded=0;fillColor=none;strokeColor=#7D91A1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1380" width="1720" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="alt-tab" value="alt" style="shape=umlFrame;html=0;fontFamily=Arial;fontSize=18;fontStyle=1;fillColor=#EAF0F5;strokeColor=#7D91A1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1380" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="guard-yes" value="[орын бос]" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#183249;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1400" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="alt-divider" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=1.3;endArrow=open;endFill=0;endArrow=none;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1680" as="sourcePoint" />
+            <mxPoint x="1760" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guard-no" value="[орын бос емес]" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#183249;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1700" width="350" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="atomic-note" value="Бос орынды тексеру және брондауды сақтау&#10;бір дерекқор транзакциясында орындалады." style="shape=note;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fillColor=#FFF4D0;strokeColor=#BD9D4C;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1280" width="620" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="call-1" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="290" as="sourcePoint" />
+            <mxPoint x="430" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-1-label" value="1: selectTime(start, duration)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="106" y="257" width="318" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="call-2" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="350" as="sourcePoint" />
+            <mxPoint x="820" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-2-label" value="2: findAvailable(start, duration)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="436" y="317" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="call-3" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="410" as="sourcePoint" />
+            <mxPoint x="1600" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-3-label" value="3: findFree(start, duration)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="377" width="768" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-3" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="470" as="sourcePoint" />
+            <mxPoint x="820" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-3-label" value="3r: availableComputers" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="437" width="768" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-2" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="530" as="sourcePoint" />
+            <mxPoint x="430" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-2-label" value="2r: availableComputers" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="436" y="497" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-1" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="590" as="sourcePoint" />
+            <mxPoint x="100" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-1-label" value="1r: availableComputers" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="106" y="557" width="318" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="call-4" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="680" as="sourcePoint" />
+            <mxPoint x="430" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-4-label" value="4: selectComputer(pcId)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="106" y="647" width="318" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="call-5" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="740" as="sourcePoint" />
+            <mxPoint x="820" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-5-label" value="5: calculatePrice(pcId, duration)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="436" y="707" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="call-6" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="800" as="sourcePoint" />
+            <mxPoint x="1210" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-6-label" value="6: getRate()" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="767" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-6" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="860" as="sourcePoint" />
+            <mxPoint x="820" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-6-label" value="6r: rate" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="827" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-5" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="920" as="sourcePoint" />
+            <mxPoint x="430" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-5-label" value="5r: total" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="436" y="887" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-4" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="980" as="sourcePoint" />
+            <mxPoint x="100" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-4-label" value="4r: total, bookingDetails" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="106" y="947" width="318" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="call-7" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1090" as="sourcePoint" />
+            <mxPoint x="430" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-7-label" value="7: confirmBooking(pcId,&#10;start, duration)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1037" width="318" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="call-8" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1170" as="sourcePoint" />
+            <mxPoint x="820" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-8-label" value="8: book(userId, pcId,&#10;start, duration)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="436" y="1117" width="378" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="call-9" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1250" as="sourcePoint" />
+            <mxPoint x="1600" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="call-9-label" value="9: createIfAvailable(userId, pcId, start, duration)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="1217" width="768" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-9-yes" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="1460" as="sourcePoint" />
+            <mxPoint x="820" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-9-yes-label" value="9r: booking(id, pcId, start, duration)" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="1427" width="768" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-8-yes" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1540" as="sourcePoint" />
+            <mxPoint x="430" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-8-yes-label" value="8r: booking" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="436" y="1507" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-7-yes" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1620" as="sourcePoint" />
+            <mxPoint x="100" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-7-yes-label" value="7r: bookingNumber, details" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1587" width="318" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-9-no" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="1770" as="sourcePoint" />
+            <mxPoint x="820" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-9-no-label" value="9r: conflict" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="1737" width="768" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-8-no" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1850" as="sourcePoint" />
+            <mxPoint x="430" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-8-no-label" value="8r: conflict" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="436" y="1817" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reply-7-no" style="html=0;rounded=0;strokeColor=#183249;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=6 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1930" as="sourcePoint" />
+            <mxPoint x="100" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reply-7-no-label" value="7r: chooseAnotherTime" style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#183249;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1897" width="318" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="Тұтас көрсеткі: әдісті шақыру. Пунктир: жауап. r: қайтарылған нәтиже. Уақыт жоғарыдан төмен жүреді." style="text;html=0;whiteSpace=wrap;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#516579;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2010" width="1720" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
